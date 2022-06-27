@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Raquel",
+  "author": "Raquel Dionísio <dionisio.raquel@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "surge": "^0.23.1"
