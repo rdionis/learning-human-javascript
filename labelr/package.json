@@ -4,11 +4,13 @@
   "description": "A really awesome way to manage labels for github issues",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge -p public -d labelraquel.surge.sh"
   },
   "author": "Raquel Dionísio <dionisio.raquel@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.18",
     "surge": "^0.23.1"
   }
 }
