@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
     "deploy": "surge -p public -d labelraquel.surge.sh"
   },
   "author": "Raquel Dionísio <dionisio.raquel@gmail.com>",
