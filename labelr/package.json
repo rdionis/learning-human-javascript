@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "description": "A really awesome way to manage labels for github issues",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "deploy": "surge -p public -d labelraquel.surge.sh"
+    "build": "webpack",
+    "deploy": "surge -p dist -d labelraquel.surge.sh"
   },
   "author": "Raquel Dionísio <dionisio.raquel@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.18",
-    "surge": "^0.23.1",
-    "webpack": "^5.73.0"
+    "surge": "^0.23.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
   }
 }
